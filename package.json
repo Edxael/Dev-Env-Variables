@@ -1,0 +1,17 @@
+{
+  "name": "01-dotenv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "ejs": "^2.5.8",
+    "express": "^4.16.3"
+  }
+}
