@@ -82,7 +82,7 @@ app.post('/', data1, function(req, res, next){
 
 
 
-app.listen(3000, function(err){
+app.listen(5000, function(err){
   if(err){ throw err; }
   console.log("Server up and running.......");
 });
