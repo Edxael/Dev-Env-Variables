@@ -6,14 +6,15 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var Book = require('./views/dbSchemas/01-book');
 require('dotenv/config')  // <--- Enviroment Variables.
-console.log("--------------------------------------------------------------------")
+console.log("--------------------------------------------------------------------***")
 
 // ----- Conecting to the DataBase -------
 mongoose.connect( `mongodb://${process.env.MONGO_DB_USERNAME}:${process.env.MONGO_DB_PASSWORD}@ds013564.mlab.com:13564/books1` , function(err){
   if(err){
-    console.log(err);
+    console.log("MLabs: Fail Conection ***************************************")
+    console.log(err)
   }else {
-    console.log("Conected to DataBase.");
+    console.log("Conected to DataBase.")
   }
 });
 

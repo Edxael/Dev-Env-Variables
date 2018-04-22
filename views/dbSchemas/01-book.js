@@ -17,3 +17,4 @@ var BookSchema = new Schema({
 
     // Exporting template
 module.exports = mongoose.model('Book', BookSchema);
+
