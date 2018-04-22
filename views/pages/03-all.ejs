@@ -1,0 +1,22 @@
+
+
+
+<% include ../parts/01-up %>
+
+
+<h3>List of all books in DataBase.</h3>
+
+<!-- <%= data %> -->
+
+
+  <% for(var x = 0; x < data.length; x++){ %>
+    <p>
+      <%= data[x].title %> by: <%= data[x].author %>
+    </p>
+  <% } %>
+
+
+
+
+
+<% include ../parts/02-dw %>

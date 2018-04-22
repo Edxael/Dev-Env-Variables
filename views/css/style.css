@@ -1,0 +1,31 @@
+body{
+  background-color: gray;
+  text-align: center;
+  padding: 7px;
+}
+
+.bar1{
+  height: 7px;
+  width: 500px;
+  background-color: black;
+}
+
+.menu1{
+  display: inline-block;
+}
+
+.btn1{
+  background-color: aquamarine;
+}
+
+.head1{
+  width: 328px;
+  height: 209px;
+}
+
+.nbook{
+  background-color: rgba(254, 254, 254, 0.5);
+  border: 2px solid white;
+  width: 500px;
+  display: inline-block;
+}

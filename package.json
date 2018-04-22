@@ -1,0 +1,34 @@
+{
+  "name": "MyBooks",
+  "version": "1.0.0",
+  "description": "List of some of my fav Books.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "Edmundo Rubio",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.6",
+    "morgan": "^1.8.2"
+  },
+  "engines": {
+    "node": "7.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Edxael/My-Fav-Books"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
+}

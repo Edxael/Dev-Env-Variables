@@ -1,0 +1,21 @@
+
+
+Project Scope
+In this Node.JS project, I'm learning to:
+
+01- Capture data from user 
+02- Paste data to server side
+03- Render data & save it to MongoDB
+04- request data from DB and render
+
+
+Technologies used on this project:
+
+Node.js
+Express.js
+EJS
+Morgan
+Bootstrap
+Body-Parser
+Mongoose
+Mongodb by: MLAB 
